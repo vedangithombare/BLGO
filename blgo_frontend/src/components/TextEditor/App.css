@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media print {
+    body {
+        margin: 0 !important;
+    }
+}
+
+.main-container {
+    font-family: 'Lato';
+    display: flex;
+    flex: 1 !important;
+    width: 100%;
+    height: 68vh;
+}
+
+/* Editor container setup */
+.editor-container__editor {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main editor styles */
+.ck.ck-editor {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; /* Take full height */
+}
+
+/* Fix the toolbar at the top */
+.ck.ck-editor__top {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+
+/* Make the editor content area scrollable */
+.ck-editor__main {
+    flex: 1;
+    overflow-y: auto;
+    height: auto !important; /* Override fixed heights with auto to respect container */
+    max-height: 100%;
+}
+
+.ck-content {
+    font-family: 'Lato';
+    line-height: 1.6;
+    word-break: break-word;
+    height: 100%;
+    min-height: 300px; /* Ensure minimum height for content */
+}
+
+.ck.ck-editor__editable_inline {
+    height: 100%;
+    overflow: visible; /* Let parent handle scrolling */
+}
+
+/* Toolbar styling */
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
+    border: none;
+}
+
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+    border: 0;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    border: 0;
+    box-shadow: none;
+}
+
+.ck.ck-toolbar .ck.ck-toolbar__separator {
+    background: none;
+}
+
+.ck > h1:first-child {
+    font-weight: bold;
+    font-size: xx-large;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+/* Media queries - keep width constraints but let height be dynamic */
+@media (min-width: 320px) {
+    .ck.ck-editor {
+        width: 17rem;
+        max-width: 17rem;
+    }
+
+    .ck-editor__main {
+        width: 17rem;
+        max-width: 17rem;
+    }
+
+    .ck > h1:first-child{
+        font-size: xx-large;
+    }
+}
+
+@media (min-width: 375px) {
+    .ck.ck-editor {
+        width: 20.5rem;
+        max-width: 20.5rem;
+    }
+
+    .ck-editor__main {
+        width: 20.5rem;
+        max-width: 20.5rem;
+    }
+
+    .ck > h1:first-child{
+        font-size: 46px;
+    }
+}
+
+@media (min-width: 425px) {
+    .ck.ck-editor {
+        width: 23.5rem;
+        max-width: 23.5rem;
+    }
+
+    .ck-editor__main {
+        width: 23.5rem;
+        max-width: 23.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .ck-editor__main {
+        width: 45rem;
+        max-width: 45rem;
+    }
+
+    .ck.ck-editor {
+        width: 45rem;
+        max-width: 45rem;
+    }
+    
+    .ck > h1:first-child{
+        font-size: xxx-large;
+    }
+
+    .editor-container__editor {
+        width: 99%;
+    }
+    
+    .ck.ck-editor__editable_inline {
+        padding: 16px 54px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .ck-editor__main {
+        width: 58rem;
+        max-width: 58rem;
+    }
+
+    .ck.ck-editor {
+        width: 58rem;
+        max-width: 58rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .ck-editor__main {
+        width: 58rem;
+        max-width: 58rem;
+    }
+
+    .ck.ck-editor {
+        width: 58rem;
+        max-width: 58rem;
+    }
+}

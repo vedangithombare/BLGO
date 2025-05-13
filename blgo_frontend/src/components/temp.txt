@@ -1,0 +1,802 @@
+
+                {/*return (*/}
+                {/*// <div className="flex flex-1  w-full bg-cyan-500 ">*/}
+                //
+                {/*// <div className=" flex flex-col w-[70rem] h-auto  rounded-[1.5rem] p-5 mx-7 gap-4">*/}
+                {/*    <span className="font-bold text-[2rem] px-5">RecentPosts</span>*/}
+                {/*    <div className="flex flex-wrap justify-between">*/}
+
+                {/*        <div className="flex flex-col w-[22rem]  h-[26rem] gap-6 p-3">*/}
+                {/*            <div className="flex w-full h-[15rem] rounded-[5px]">*/}
+                {/*                <img className="object-cover max-h-full w-full rounded-[25px] aspect-square"*/}
+                {/*                     src="https://images.pexels.com/photos/9672817/pexels-photo-9672817.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"*/}
+                {/*                     alt="temp img"/>*/}
+                {/*            </div>*/}
+                {/*            <div className="flex flex-col ">*/}
+                {/*                <span className="text-black font-bold text-[1.5rem]">exercitationem obcaecati</span>*/}
+                {/*                <span className="text-[1rem] text-gray-400"> Dolores ducimus ipsa iusto, quam quas quos velit voluptas!*/}
+                {/*            A ad, animi eius </span>*/}
+                {/*                <div className="flex flex-row my-3">*/}
+                {/*                    <div className="flex"></div>*/}
+                {/*                    <span className="font-bold  text-[0.8rem]">XYZ | 24 OCT 2024</span>*/}
+                {/*                </div>*/}
+
+                {/*            </div>*/}
+
+                {/*        </div>*/}
+                {/*        <div className="flex flex-col w-[22rem]  h-[26rem] gap-6 p-3">*/}
+                {/*            <div className="flex w-full h-[15rem] rounded-[5px]">*/}
+                {/*                <img className="object-cover max-h-full w-full rounded-[25px] aspect-square"*/}
+                {/*                     src="https://images.pexels.com/photos/18322097/pexels-photo-18322097/free-photo-of-used-books-displayed-in-store.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"*/}
+                {/*                     alt="temp img"/>*/}
+                {/*            </div>*/}
+                {/*            <div className="flex flex-col ">*/}
+                {/*                <span className="text-black font-bold text-[1.5rem]">exercitationem obcaecati</span>*/}
+                {/*                <span className="text-[1rem] text-gray-400"> Dolores ducimus ipsa iusto, quam quas quos velit voluptas!*/}
+                {/*            A ad, animi eius </span>*/}
+                {/*                <div className="flex flex-row my-3">*/}
+                {/*                    <div className="flex"></div>*/}
+                {/*                    <span className="font-bold  text-[0.8rem]">XYZ | 24 OCT 2024</span>*/}
+                {/*                </div>*/}
+
+                {/*            </div>*/}
+
+                {/*        </div>*/}
+                {/*        <div className="flex flex-col w-[22rem]  h-[26rem] gap-6 p-3">*/}
+                {/*            <div className="flex w-full h-[15rem] rounded-[5px]">*/}
+                {/*                <img className="object-cover max-h-full w-full rounded-[25px] aspect-square"*/}
+                {/*                     src="https://images.pexels.com/photos/29023460/pexels-photo-29023460/free-photo-of-brazilian-cowboy-riding-horse-in-arena.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"*/}
+                {/*                     alt="temp img"/>*/}
+                {/*            </div>*/}
+                {/*            <div className="flex flex-col ">*/}
+                {/*                <span className="text-black font-bold text-[1.5rem]">exercitationem obcaecati</span>*/}
+                {/*                <span className="text-[1rem] text-gray-400"> Dolores ducimus ipsa iusto, quam quas quos velit voluptas!*/}
+                {/*            A ad, animi eius </span>*/}
+                {/*                <div className="flex flex-row my-3">*/}
+                {/*                    <div className="flex"></div>*/}
+                {/*                    <span className="font-bold  text-[0.8rem]">XYZ | 24 OCT 2024</span>*/}
+                {/*                </div>*/}
+
+                {/*            </div>*/}
+
+                {/*        </div>*/}
+
+                {/*        <div className="flex flex-col w-[22rem]  h-[26rem] gap-6 p-3">*/}
+                {/*            <div className="flex w-full h-[15rem] rounded-[5px]">*/}
+                {/*                <img className="object-cover max-h-full w-full rounded-[25px] aspect-square"*/}
+                {/*                     src="https://images.pexels.com/photos/28936961/pexels-photo-28936961/free-photo-of-cozy-breakfast-with-croissants-and-coffee.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"*/}
+                {/*                     alt="temp img"/>*/}
+                {/*            </div>*/}
+                {/*            <div className="flex flex-col ">*/}
+                {/*                <span className="text-black font-bold text-[1.5rem]">exercitationem obcaecati</span>*/}
+                {/*                <span className="text-[1rem] text-gray-400"> Dolores ducimus ipsa iusto, quam quas quos velit voluptas!*/}
+                {/*            A ad, animi eius </span>*/}
+                {/*                <div className="flex flex-row my-3">*/}
+                {/*                    <div className="flex"></div>*/}
+                {/*                    <span className="font-bold  text-[0.8rem]">XYZ | 24 OCT 2024</span>*/}
+                {/*                </div>*/}
+
+                {/*            </div>*/}
+
+                {/*        </div>*/}
+                {/*        <div className="flex flex-col w-[22rem]  h-[26rem] gap-6 p-3">*/}
+                {/*            <div className="flex w-full h-[15rem] rounded-[5px]">*/}
+                {/*                <img className="object-cover max-h-full w-full rounded-[25px] aspect-square"*/}
+                {/*                     src="https://images.pexels.com/photos/27467770/pexels-photo-27467770/free-photo-of-laptop-and-camera-on-desk.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"*/}
+                {/*                     alt="temp img"/>*/}
+                {/*            </div>*/}
+                {/*            <div className="flex flex-col ">*/}
+                {/*                <span className="text-black font-bold text-[1.5rem]">exercitationem obcaecati</span>*/}
+                {/*                <span className="text-[1rem] text-gray-400"> Dolores ducimus ipsa iusto, quam quas quos velit voluptas!*/}
+                {/*            A ad, animi eius </span>*/}
+                {/*                <div className="flex flex-row my-3">*/}
+                {/*                    <div className="flex"></div>*/}
+                {/*                    <span className="font-bold  text-[0.8rem]">XYZ | 24 OCT 2024</span>*/}
+                {/*                </div>*/}
+
+                {/*            </div>*/}
+
+                {/*        </div>*/}
+                {/*        <div className="flex flex-col w-[22rem]  h-[26rem] gap-6 p-3">*/}
+                {/*            <div className="flex w-full h-[15rem] rounded-[5px]">*/}
+                {/*                <img className="object-cover max-h-full w-full rounded-[25px] aspect-square"*/}
+                {/*                     src="https://images.pexels.com/photos/28435070/pexels-photo-28435070/free-photo-of-ancient-rock-tombs-in-dalyan-turkiye.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"*/}
+                {/*                     alt="temp img"/>*/}
+                {/*            </div>*/}
+                {/*            <div className="flex flex-col ">*/}
+                {/*                <span className="text-black font-bold text-[1.5rem]">exercitationem obcaecati</span>*/}
+                {/*                <span className="text-[1rem] text-gray-400"> Dolores ducimus ipsa iusto, quam quas quos velit voluptas!*/}
+                {/*            A ad, animi eius </span>*/}
+                {/*                <div className="flex flex-row my-3">*/}
+                {/*                    <div className="flex"></div>*/}
+                {/*                    <span className="font-bold  text-[0.8rem]">XYZ | 24 OCT 2024</span>*/}
+                {/*                </div>*/}
+
+                {/*            </div>*/}
+
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*    <div className="flex justify-center">*/}
+                {/*        <button className="bg-black text-white p-3 px-6 rounded-[14px]">Load more</button>*/}
+                {/*    </div>*/}
+
+                {/*</div>*/}
+
+
+                 {/*</div>*/}
+                 {/*)*/}
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+'<h2>Congratulations on setting up CKEditor 5! 🎉</h2>\n<p>\n    You\'ve successfully created a CKEditor ' +
+			'5 project. This powerful text editor will enhance your application, enabling rich text editing\n    ' +
+			'capabilities that are customizable and easy to use.\n</p>\n<h3>What\'s next?</h3>\n<ol>\n    <li>\n   ' +
+			'     <strong>Integrate into your app</strong>: time to bring the editing into your application. ' +
+			'Take the code you created and add to your\n        application.\n    </li>\n    <li>\n    ' +
+			'    <strong>Explore features:</strong> Experiment with different plugins and toolbar options to ' +
+			'discover what works best for your needs.\n    </li>\n    <li>\n    ' +
+			'    <strong>Customize your editor:</strong> Tailor the editor\'s configuration to match your' +
+			' application\'s style and requirements. Or even\n        write your plugin!\n    </li>\n</ol>\n<p>\n  ' +
+			'  Keep experimenting, and don\'t hesitate to push the boundaries of what you can achieve with CKEditor 5. ' +
+			'Your feedback is invaluable to us\n    as we strive to improve and evolve. Happy editing!\n</p>\n<h3>Helpful' +
+			' resources</h3>\n<ul>\n    <li>📝 <a href="https://orders.ckeditor.com/trial/premium-features">Trial sign up</a>,' +
+			'</li>\n    <li>📕 <a href="https://ckeditor.com/docs/ckeditor5/latest/installation/index.html">Documentation</a>' +
+			',</li>\n    <li>⭐️ <a href="https://github.com/ckeditor/ckeditor5">GitHub</a> (star us if you can!),</li>\n  ' +
+			'  <li>🏠 <a href="https://ckeditor.com">CKEditor Homepage</a>,</li>\n  ' +
+			'  <li>🧑‍💻 <a href="https://ckeditor.com/ckeditor-5/demo/">CKEditor 5 Demos</a>,</li>\n</ul>\n<h3>Need help?</h3>\n<p>\n   ' +
+			' See this text, but the editor is not starting up? Check the browser\'s console for clues and guidance. ' +
+			'It may be related to an incorrect\n    license key if you use premium features or another feature-related requirement. ' +
+			'If you cannot make it work, file a GitHub issue, and we\n    will help as soon as possible!\n</p>\n',
+			----------------------------------------------------------------------------------------------------
+
+{/*<div className="flex flex-col gap-1">*/}
+                {/*    <input*/}
+                {/*        type="text"*/}
+                {/*        placeholder="Title"*/}
+                {/*        maxLength="50"*/}
+                {/*        className="w-full outline-none p-2 text-4xl font-bold text-[#121212]"*/}
+                {/*    />*/}
+                {/*    <hr className="border-solid border-[#bdbec0] w-1/2 "/>*/}
+
+                {/*</div>*/}
+                {/*<textarea*/}
+                {/*    name="editor"*/}
+                {/*    id="editor"*/}
+                {/*    cols="40"*/}
+                {/*    rows="40"*/}
+                {/*    placeholder="Write something..."*/}
+                {/*    className="w-full  outline-none resize-none whitespace-pre-wrap"*/}
+                {/*></textarea>*/}
+
+             ------------------------------------------------------------------------------------------------------
+
+             const [jsonData,setJsonData] = useState('');
+
+// useEffect(()=>{
+// const getJsonData = async()=>{
+//     try{
+//           const jsonResponse = await fetch('/Data');
+//           if(!response.ok){
+//               throw new Error("error in fetching data.");
+//           }
+//           const  data = await jsonResponse.json();
+//               setJsonData(data);
+//
+//     }catch(e){
+//         throw e;
+//     }
+// };
+//
+// getJsonData();
+// console.log(getJsonData);
+// },[]);
+
+----------------------------------------------------
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media print {
+    body {
+        margin: 0 !important;
+    }
+}
+
+.main-container {
+    font-family: 'Lato';
+    display: flex;
+    flex-direction:column;
+flex-wrap: wrap;
+    /*border: 1px solid red;*/
+}
+
+.ck-content {
+    font-family: 'Lato';
+    line-height: 1.6;
+    word-break: break-word;
+	height: 100%;
+
+}
+
+/*.editor-container_classic-editor .editor-container__editor {*/
+/*    !*min-width: 795px;*!*/
+/*    !*max-width: 795px;*!*/
+/*    !*flex-grow: 1;*!*/
+/*    min-height: 100%;*/
+/*}*/
+
+.ck-editor__main{
+    height: 456px;
+    width: 850px;
+}
+.ck.ck-editor {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.ck.ck-editor__editable_inline {
+    display: flex;
+    flex-direction: column;
+flex-wrap: wrap;
+    overflow: auto;
+    padding: 16px 54px;
+    border: 20px solid green}
+
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
+    border: none;
+    }
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+    border:0;
+}
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    border: 0;
+    box-shadow: none;
+}
+.ck.ck-toolbar .ck.ck-toolbar__separator {
+     background: none;
+}
+
+.ck>h1:first-child{
+    font-weight: bold;
+    font-size: xx-large;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.ck.ck-editor__editable_inline {
+    border: 1px solid black;
+}
+
+/*applying passing to top panel*/
+/*.ck .ck-editor__top.ck-reset_all{*/
+/*    padding: 0 4em;*/
+/*    border: 1px solid black;*/
+/*}*/
+
+
+@media (max-width: 768px) {
+    .ck-editor__main
+    {
+        width:680px;
+    }
+
+    .ck.ck-editor__editable_inline {
+        padding: 4px 30px;
+    }
+}
+
+-----------------------------
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media print {
+    body {
+        margin: 0 !important;
+    }
+}
+
+.main-container {
+    font-family: 'Lato';
+    display: flex;
+    flex: 1 !important;
+    width: 100%;
+    height: 68vh;
+    /*border: 1px solid red;*/
+}
+
+.ck-content {
+    font-family: 'Lato';
+    line-height: 1.6;
+    word-break: break-word;
+    height: 100%;
+
+}
+
+/*.editor-container_classic-editor .editor-container__editor {*/
+/*    !*min-width: 795px;*!*/
+/*    !*max-width: 795px;*!*/
+/*    !*flex-grow: 1;*!*/
+/*    min-height: 100%;*/
+/*}*/
+
+.ck-editor__main {
+    height: 22rem;
+    width: 65rem;
+}
+
+/*Editor navbar */
+.ck.ck-editor {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /*background-color: brown;*/
+}
+
+.ck.ck-editor__editable_inline {
+    overflow: auto;
+    padding: 16px 54px;
+}
+
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
+    border: none;
+}
+
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+    border: 0;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    border: 0;
+    box-shadow: none;
+}
+
+.ck.ck-toolbar .ck.ck-toolbar__separator {
+    background: none;
+}
+
+.ck > h1:first-child {
+    font-weight: bold;
+    font-size: xx-large;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+/*.ck.ck-editor__editable_inline {*/
+/*    border: 1px solid black;*/
+/*}*/
+
+/*applying passing to top panel*/
+/*.ck .ck-editor__top.ck-reset_all{*/
+/*    padding: 0 4em;*/
+/*    border: 1px solid black;*/
+/*}*/
+
+@media (max-width: 768px) {
+
+
+    /*.editor-container .editor-container_classic-editor {*/
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    /*}*/
+
+    .ck.ck-editor {
+        height: 63vh;
+    }
+
+    /*.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {*/
+    /*    height: 100%;*/
+    /*    width: 100%;*/
+    /*}*/
+
+    .ck-editor__main {
+        display: flex;
+        width: 100%;
+        height: 86%;
+
+    }
+
+    .editor-container__editor {
+        width:99%;
+    }
+
+    .ck.ck-editor__editable_inline {
+        padding: 2px 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .ck-editor__main {
+        height: 21.5rem;
+        width: 60rem;
+    }
+}
+
+
+----------------------------------------
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media print {
+    body {
+        margin: 0 !important;
+    }
+}
+
+.main-container {
+    font-family: 'Lato';
+    display: flex;
+    flex: 1 !important;
+    width: 100%;
+    height: 68vh;
+    border: 1px solid red;
+}
+
+.ck-content {
+    font-family: 'Lato';
+    line-height: 1.6;
+    word-break: break-word;
+    height: 100%;
+
+}
+
+/*.editor-container_classic-editor .editor-container__editor {*/
+/*    !*min-width: 795px;*!*/
+/*    !*max-width: 795px;*!*/
+/*    !*flex-grow: 1;*!*/
+/*    min-height: 100%;*/
+/*}*/
+
+.ck-editor__main {
+    height: 22rem;
+    width: 56rem;
+}
+
+/*Editor navbar */
+.ck.ck-editor {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /*background-color: brown;*/
+}
+
+.ck.ck-editor__editable_inline {
+    overflow: auto;
+    padding: 16px 54px;
+}
+
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
+    border: none;
+}
+
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+    border: 0;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    border: 0;
+    box-shadow: none;
+}
+
+.ck.ck-toolbar .ck.ck-toolbar__separator {
+    background: none;
+}
+
+.ck > h1:first-child {
+    font-weight: bold;
+    font-size: xx-large;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+/*.ck.ck-editor__editable_inline {*/
+/*    border: 1px solid black;*/
+/*}*/
+
+/*applying passing to top panel*/
+/*.ck .ck-editor__top.ck-reset_all{*/
+/*    padding: 0 4em;*/
+/*    border: 1px solid black;*/
+/*}*/
+
+@media (max-width: 425px) {
+
+    .ck.ck-editor {
+        width: 23.5rem;
+    }
+
+    /*.ck-editor__main {*/
+    /*    height: 22.5rem;*/
+    /*    width: 50rem;*/
+    /*}*/
+}
+
+@media (max-width: 768px) {
+
+    /*.ck-editor__main {*/
+    /*        height: 22.5rem;*/
+    /*        width: 50rem;*/
+    /*    }*/
+    .ck.ck-editor {
+        width: 45rem;
+    }
+
+    /*.editor-container .editor-container_classic-editor {*/
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    /*}*/
+    /*.ck.ck-editor {*/
+    /*    height: 63vh;*/
+    /*}*/
+    /*.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {*/
+    /*    height: 100%;*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.ck-editor__main {*/
+    /*    width: 100%;*/
+    /*    height: 86%;*/
+    /*}*/
+    /*.editor-container__editor {*/
+    /*    width:99%;*/
+    /*}*/
+    .ck.ck-editor__editable_inline {
+        padding: 2px 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .ck-editor__main {
+        height: 22.5rem;
+        width: 58rem;
+    }
+}
+
+------------------------------------------------------
+
+ const updateURL = (e) => {
+        console.log("e", e);
+        console.log(e.target.files);
+        // URL.createObjectURL(e.target.files[0])
+        let fileURL = URL.createObjectURL(e.target.files[0]);
+
+        setDeviceURL({coverURL: fileURL});
+    }
+
+    useEffect(() => {
+        console.log("DEVICE URL", deviceURl);
+    }, [deviceURl]);
+
+
+import React, {useEffect, useState} from 'react';
+import {Menu, MenuButton, MenuItem, MenuItems} from '@headlessui/react'
+import "../../statics/styles.css"
+import App from './App.jsx';
+
+import DummyData from '../../statics/DummyData.json';
+
+// {
+//         "id":"",
+//         "author":"",
+//         "publishDate":"",
+//         "coverURL":"",
+//         "tags":[],
+//     }
+function TextEditor() {
+
+    const [deviceURl, setDeviceURL] = useState({coverURL: ""})
+    const updateURL = (e) => {
+        console.log("e", e);
+        console.log(e.target.files);
+        // URL.createObjectURL(e.target.files[0])
+        let fileURL = URL.createObjectURL(e.target.files[0]);
+
+        setDeviceURL({coverURL: fileURL});
+    }
+
+    useEffect(() => {
+        console.log("DEVICE URL", deviceURl);
+    }, [deviceURl]);
+
+
+    return (
+        //Main div
+        <div className="flex flex-col h-full  gap-[57px] px-4 lg:py-[2px]  lg:px-10  ">
+
+            {/*Add cover and tag*/}
+            <div className="flex min-h-20  gap-4 lg:px-2">
+                <div className="flex items-center gap-2">
+                    <Menu as="div">
+                        <div>
+                            <MenuButton className="flex items-center justify-center gap-1">
+                                <span className="material-symbols-outlined">add_photo_alternate</span>
+                                Add cover
+                                <span className="material-symbols-outlined" id="downArrow">keyboard_arrow_down</span>
+                            </MenuButton>
+                        </div>
+                        <MenuItems
+                            className="absolute z-10 mt-2 w-40 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
+                            <div className="py-1">
+                                {/* Button for "Upload from device" */}
+                                <MenuItem>
+                                    {({active}) => (
+                                        <div>
+                                            <label htmlFor="fileInput"
+                                                   className={`block w-full px-4 py-2 text-sm text-left ${active ? "bg-gray-100 text-gray-900" : "text-gray-700"}`}
+                                                   onClick={() => {
+                                                       console.log("upload from device clicked")
+                                                   }}
+                                                   onChange={updateURL}
+
+                                            >
+                                                Upload from device
+                                            </label>
+                                            <input
+                                                id="fileInput"
+                                                type="file"
+                                                // className="hidden"
+                                            />
+                                        </div>
+
+                                        // <button
+                                        //     onChange={updatePost}
+                                        //     onClick={() => console.log("Upload from device clicked")}>
+                                        //
+                                        // </button>
+
+                                    )}
+                                </MenuItem>
+
+                                {/* Button for "Upload the URL" */}
+                                <MenuItem>
+                                    {({active}) => (
+                                        <button
+                                            className={`block w-full px-4 py-2 text-sm text-left ${active ? "bg-gray-100 text-gray-900" : "text-gray-700"}`}
+                                            onClick={() => console.log("Upload the URL clicked")}
+                                        >
+                                            Upload the URL
+                                        </button>
+                                    )}
+                                </MenuItem>
+                            </div>
+                        </MenuItems>
+                    </Menu>
+
+                </div>
+
+
+                <div className="flex items-center gap-2">
+                    <span className="material-symbols-outlined">tag</span>
+
+                    <button>Add Tags</button>
+                </div>
+            </div>
+
+            {/*Editor*/}
+            <div className="flex flex-1 h-[99%] flex-wrap flex-col ">
+                <App/>
+            </div>
+
+        </div>
+    )
+}
+
+export default TextEditor;
+
+
+
+--------------------------------------------------
+  // initialData:
+        //     '<h2>Congratulations on setting up CKEditor 5! 🎉</h2>\n<p>\n    You\'ve successfully created a CKEditor 5 project. This powerful text editor will enhance your application, enabling rich text editing\n    capabilities that are customizable and easy to use.\n</p>\n<h3>What\'s next?</h3>\n<ol>\n    <li>\n        <strong>Integrate into your app</strong>: time to bring the editing into your application. Take the code you created and add to your\n        application.\n    </li>\n    <li>\n        <strong>Explore features:</strong> Experiment with different plugins and toolbar options to discover what works best for your needs.\n    </li>\n    <li>\n        <strong>Customize your editor:</strong> Tailor the editor\'s configuration to match your application\'s style and requirements. Or even\n        write your plugin!\n    </li>\n</ol>\n<p>\n    Keep experimenting, and don\'t hesitate to push the boundaries of what you can achieve with CKEditor 5. Your feedback is invaluable to us\n    as we strive to improve and evolve. Happy editing!\n</p>\n<h3>Helpful resources</h3>\n<ul>\n    <li>📝 <a href="https://orders.ckeditor.com/trial/premium-features">Trial sign up</a>,</li>\n    <li>📕 <a href="https://ckeditor.com/docs/ckeditor5/latest/installation/index.html">Documentation</a>,</li>\n    <li>⭐️ <a href="https://github.com/ckeditor/ckeditor5">GitHub</a> (star us if you can!),</li>\n    <li>🏠 <a href="https://ckeditor.com">CKEditor Homepage</a>,</li>\n    <li>🧑‍💻 <a href="https://ckeditor.com/ckeditor-5/demo/">CKEditor 5 Demos</a>,</li>\n</ul>\n<h3>Need help?</h3>\n<p>\n    See this text, but the editor is not starting up? Check the browser\'s console for clues and guidance. It may be related to an incorrect\n    license key if you use premium features or another feature-related requirement. If you cannot make it work, file a GitHub issue, and we\n    will help as soon as possible!\n</p>\n',
+------------------------------------------
+
+cover img code
+
+    const updateURL = (fileURL) => {
+
+        //this is the coverUrl object that will handle urls from both device and url address
+        const newImage = {
+            id: `image-${count + 1}`,
+            coverURL: fileURL,
+            publishDate: new Date().toISOString()
+        };
+
+        const updatedData = [...uploadedImg, [newImage]];
+        console.log("file url", fileURL);
+        setUploadedImg(updatedData);
+        console.log("uploadedImg", uploadedImg);
+
+        localStorage.setItem("DummyData", JSON.stringify(updatedData));
+        const newCount = count + 1;
+        localStorage.setItem("count", newCount);
+        setCount(newCount);
+        //this is what will go in the article object
+        console.log("device picture input",updatedData);
+        console.log("url address input:",urlInput);
+
+        setUrlInput(""); // Clear the URL input
+        setIsModalOpen(false); // Close the modal after submission
+    };
+
+// const updateURL = (uplodedImgUrl) => {
+    //     setCoverImg(uplodedImgUrl);
+    //
+    //
+    //    setCoverImg(""); // Clear the URL input
+    //     setIsModalOpen(false); // Close the modal after submission
+    // }
+    //
+    // useEffect(() => {
+    //     console.log("cover image", coverImg);
+    // }, [coverImg])
+    //
+    // // this is going to trigger the dialog box to save the images from the device
+    // const triggerFileInput = () => {
+    //     document.getElementById("fileInput").click();
+    // };
+    // const handleUploadImg = (event) => {
+    //     const gettingImg = event.target.files[0];
+    //     // creating an url for uploaded image;
+    //     const imgUrl = URL.createObjectURL(gettingImg);
+    //     updateURL(imgUrl);
+    // }
+    //
+    // // this is used for direct url uploading of the image
+    // const handleUrlSubmit = () => {
+    //     //validating url
+    //     if (urlInput.trim() === "") {
+    //         alert("Please enter a valid URL");
+    //         return;
+    //     }
+    //     //then sending the url to return
+    //     updateURL(urlInput);
+    // };
+=====================================================================================
+    // const ArticleObject = {
+    //     Id: '',// in the application which id is this
+    //     userArticleID: '', // users Article number
+    //     author: '',
+    //     timeStamp: '',
+    //     date: '',
+    //     tags: [],
+    //     coverImg: '',
+    //     ArticleTitle: '',
+    //     ArticleContent: '',
+    //     likes: '',
+    // }
+
+
+    ====================================================================================
+
+    
+        {/* Static post example */}
+        <div className="flex flex-col w-1/4 md:min-w-72">
+          {/*img*/}
+          <div className="flex h-44 rounded-md">
+            <img
+              className="object-cover max-h-full w-full rounded-2xl aspect-square"
+              src="https://images.pexels.com/photos/9672817/pexels-photo-9672817.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+              alt="temp img"
+            />
+          </div>
+          {/* text */}
+          <div className="flex flex-col py-2 justify-center gap-1">
+            <span className="font-normal text-xl">
+              exercitationem obcaecati
+            </span>
+            <span className="text-sm text-gray-400">
+              Dolores ducimus ipsa iusto, quam quas quos velit voluptas! A ad,
+              animi eius
+            </span>
+            <div className="flex items-center gap-1">
+              <span className="material-symbols-outlined" id="calendar">
+                calendar_month
+              </span>
+              <span className="font-[600] text-xs">24 OCT 2024</span>
+            </div>
+          </div>
+        </div>
