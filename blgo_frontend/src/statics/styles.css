@@ -48,3 +48,31 @@ body, #root {
     padding-top: 5px ;
     cursor: pointer;
 }
+
+li{
+    list-style: inherit;
+}
+
+ol{
+    list-style: decimal;
+}
+td{
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+code{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+a{
+    font-style: italic;
+    color: #8f7474;
+}
+
+blockquote{
+     border-left: 4px solid gray;
+    padding-left: 18px;
+
+}
