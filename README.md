@@ -25,27 +25,21 @@ BLGO is a feature-rich blog platform inspired by Medium, designed to let users c
 # Blog Setup Guide
 Welcome! This guide will help you set up the **Blog** project locally.
 
----
 
-##  1. Unzip the Folder
-Unzip the folder containing the `blog_frontend` and `blog_backend` directories.
-
----
-
-##  2. Frontend Setup (React)
+##  1. Frontend Setup (React)
 
 Navigate to the `blog_frontend` directory and run:
 
 ```bash
 npm install
-npm start
+npm run start
 ```
 
 This will start the frontend server on [http://localhost:3000](http://localhost:3000).
 
 ---
 
-##  3. Backend Setup (Spring Boot)
+##  2. Backend Setup (Spring Boot)
 
 Navigate to the `blog_backend` directory.
 
@@ -84,11 +78,11 @@ spring.datasource.password=your_db_password
 2. Browse and select the `blog_backend` folder.
 3. Ensure all projects are checked and click **Finish**.
 4. Wait for Maven dependencies to resolve.
-5. Right-click `BlogBackendApplication.java` → **Run As > Java Application**.
+5. Right-click `BlogBackendApplication.java` → **Run As > Java Application** **OR** Click on the run button on the top right side .
 
 ---
 
-##  4. PostgreSQL Setup
+##  3. PostgreSQL Setup
 
 Ensure PostgreSQL is installed and running.
 
