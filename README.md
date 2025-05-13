@@ -34,16 +34,7 @@ Navigate to the `blog_frontend` directory and run:
 npm install
 npm run start
 ```
-Install Tailwind CSS and its dependencies
 
-```bash
-npm install -D tailwindcss postcss autoprefixer
-```
-Then, initialize the configuration:
-
-```bash
-npx tailwindcss init -p
-```
 This will start the frontend server on [http://localhost:3000](http://localhost:3000).
 
 ---
